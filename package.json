@@ -1,8 +1,36 @@
 {
-  "name": "react-microphone-btn",
-  "private": true,
-  "version": "0.0.0",
+  "name": "react-glassmorphic-mic-recorder",
+  "version": "1.0.0",
   "type": "module",
+  "description": "A stylish and functional microphone recording component for React applications, featuring a glass morphism design.",
+  "keywords": [
+    "pradeepvish1213",
+    "react",
+    "microphone",
+    "audio",
+    "recorder",
+    "glassmorphism",
+    "ui",
+    "component",
+    "recording",
+    "voice",
+    "sound",
+    "media",
+    "web-audio",
+    "playback",
+    "download",
+    "timer"
+  ],
+  "contributors": [
+    {
+      "name": "Pradeep Vishwakarma",
+      "email": "pradeepvish1213@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pradeepvish1213/react-glassmorphic-mic-recorder.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -107,10 +107,10 @@ Contributions, issues, and feature requests are welcome. Feel free to check the 
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [MIT License](https://github.com/pradeepvish1213/react-glassmorphic-mic-recorder?tab=MIT-1-ov-file).
 
 ---
 
 
-Enjoy using the React Microphone Record Button! If you have any questions or need further assistance, please don't hesitate to reach out.
+Enjoy using the React Microphone Record Button! If you have any questions or need further assistance, please don't hesitate to reach out [Pradeep Vishwakarma](https://github.com/pradeepvish1213).
 
