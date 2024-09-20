@@ -1,0 +1,131 @@
+:root {
+  --base-bg: #e0e5ec;
+  --text-color: #4a4a4a;
+  --shadow-light: #ffffff;
+  --shadow-dark: #a3b1c6;
+  --accent-blue: #4a90e2;
+  --accent-red: #e74c3c;
+  --accent-green: #2ecc71;
+}
+
+.body {
+  background-color: var(--base-bg);
+  color: var(--text-color);
+  font-family: 'Arial', sans-serif;
+}
+
+.record-button-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 20px;
+  background: var(--base-bg);
+  box-shadow: 8px 8px 15px var(--shadow-dark), -8px -8px 15px var(--shadow-light);
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.record-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px;
+  border-radius: 50px;
+  color: var(--text-color);
+  font-weight: bold;
+  font-size: 18px;
+  transition: all 0.3s;
+  border: none;
+  background: var(--base-bg);
+  box-shadow: 6px 6px 12px var(--shadow-dark), -6px -6px 12px var(--shadow-light);
+}
+
+.record-button:active {
+  box-shadow: inset 4px 4px 8px var(--shadow-dark), inset -4px -4px 8px var(--shadow-light);
+}
+
+.record-button-recording {
+  color: var(--accent-red);
+}
+
+.record-button-idle {
+  color: var(--accent-blue);
+}
+
+.icon {
+  margin-right: 12px;
+  font-size: 24px;
+}
+
+.timer-container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+  background: var(--base-bg);
+  box-shadow: inset 4px 4px 8px var(--shadow-dark), inset -4px -4px 8px var(--shadow-light);
+}
+
+.timer-label {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.timer {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--accent-blue);
+  margin-top: 8px;
+}
+
+.audio-container {
+  width: 100%;
+}
+
+.audio-preview {
+  padding: 20px;
+  border-radius: 15px;
+  background: var(--base-bg);
+  box-shadow: inset 4px 4px 8px var(--shadow-dark), inset -4px -4px 8px var(--shadow-light);
+  margin-bottom: 20px;
+}
+
+.audio-label {
+  margin-bottom: 12px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.download-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px;
+  color: var(--accent-green);
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: all 0.3s;
+  border: none;
+  background: var(--base-bg);
+  box-shadow: 6px 6px 12px var(--shadow-dark), -6px -6px 12px var(--shadow-light);
+}
+
+.download-button:active {
+  box-shadow: inset 4px 4px 8px var(--shadow-dark), inset -4px -4px 8px var(--shadow-light);
+}
+
+audio {
+  width: 100%;
+  margin-top: 12px;
+  border-radius: 30px;
+  background: var(--base-bg);
+  box-shadow: 4px 4px 8px var(--shadow-dark), -4px -4px 8px var(--shadow-light);
+}
