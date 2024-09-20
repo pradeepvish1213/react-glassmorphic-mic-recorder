@@ -1,6 +1,6 @@
 {
   "name": "react-glassmorphic-mic-recorder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "A stylish and functional microphone recording component for React applications, featuring a glass morphism design.",
   "keywords": [
