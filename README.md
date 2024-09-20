@@ -17,12 +17,12 @@ A stylish and functional microphone recording component for React applications, 
 2. Install required dependencies:
 
 ```bash
-npm install react-microphone-record-button
+npm install react-glassmorphic-mic-recorder
 ```
 OR
 
 ```bash
-yarn add react-microphone-record-button
+yarn add react-glassmorphic-mic-recorder
 ```
 
 ## Usage
